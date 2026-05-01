@@ -1,0 +1,77 @@
+.tarjeta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+
+
+/* Hace que el mensaje de error aparezca DEBAJO del input */
+.error {
+    display: block;      /* ocupa toda la línea, fuerza un salto */
+    color: red;
+    font-size: 12px;
+    margin-top: 4px;     
+}
+
+
+.campo {
+    margin-bottom: 18px;
+}
+
+.campo label {
+    /*display: block;*/
+    color: #4a4a4a;
+    font-weight: 600;
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+
+.campo input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.campo input:focus {
+    border-color: #3182ce;
+}
+
+.campo input::placeholder {
+    color: #999;
+}
+
+.error {
+    display: block;
+    color: #e53e3e;
+    font-size: 12px;
+    margin-top: 4px;
+    min-height: 16px;
+}
+
+.btn-registrar {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    background: linear-gradient(to right, #4299e1, #3182ce);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+.btn-registrar:hover {
+    opacity: 0.9;
+}
